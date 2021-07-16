@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7f632c2-3850-4577-8a51-b61cb769d645" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../pytorch">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/PoseEstimator.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\cache\maven\repository" />
+        <option name="userSettingsFile" value="D:\cache\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tAySBb2Z6voq6yzHWE5RE3xXLi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41247" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\action" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\sppe" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\target\classes\sppe" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\yolov5" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\IdeaProjects\" />
+      <recent name="D:\Projects\IdeaProjects\SmartClassroomJava" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources" />
+      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\yolov5s" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xyz.hyhy.scai.translator" />
+      <recent name="xyz.hyhy.scai.ml" />
+      <recent name="xyz.hyhy.scai" />
+      <recent name="xyz.hyhy.scai.exemodules" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClassAction">
+    <configuration name="AlphaPose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.AlphaPose" />
+      <module name="SmartClassroomJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.hyhy.scai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.ClassAction" />
+      <module name="SmartClassroomJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.hyhy.scai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.Main" />
+      <module name="SmartClassroomJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.hyhy.scai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.MainTest" />
+      <module name="SmartClassroomJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xyz.hyhy.scai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Yolov5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.Yolov5" />
+      <module name="SmartClassroomJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClassAction" />
+        <item itemvalue="Application.AlphaPose" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.Yolov5" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7f632c2-3850-4577-8a51-b61cb769d645" name="Default Changelist" comment="" />
+      <created>1622226187514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622226187514</updated>
+      <workItem from="1622226189221" duration="920000" />
+      <workItem from="1622227167098" duration="1090000" />
+      <workItem from="1622283397909" duration="1090000" />
+      <workItem from="1622284641141" duration="254000" />
+      <workItem from="1622289080906" duration="438000" />
+      <workItem from="1622289533623" duration="6903000" />
+      <workItem from="1622301024022" duration="606000" />
+      <workItem from="1622303587201" duration="9185000" />
+      <workItem from="1622313306958" duration="378000" />
+      <workItem from="1622314085269" duration="185000" />
+      <workItem from="1622365807552" duration="2965000" />
+      <workItem from="1622393582466" duration="2217000" />
+      <workItem from="1622396261580" duration="468000" />
+      <workItem from="1622397066842" duration="5268000" />
+      <workItem from="1622438424706" duration="2431000" />
+      <workItem from="1622465134931" duration="1639000" />
+      <workItem from="1622474615711" duration="871000" />
+      <workItem from="1622478924422" duration="6150000" />
+      <workItem from="1622485164610" duration="1528000" />
+      <workItem from="1622527181053" duration="21192000" />
+      <workItem from="1622551274385" duration="311000" />
+      <workItem from="1622552010381" duration="6898000" />
+      <workItem from="1622607689334" duration="2767000" />
+      <workItem from="1622624418724" duration="13781000" />
+      <workItem from="1622647477476" duration="9625000" />
+      <workItem from="1622657330590" duration="132000" />
+      <workItem from="1622691633565" duration="28545000" />
+      <workItem from="1622724679165" duration="274000" />
+      <workItem from="1622724977885" duration="45000" />
+      <workItem from="1622728717996" duration="713000" />
+      <workItem from="1622810823539" duration="9002000" />
+      <workItem from="1622879420279" duration="548000" />
+      <workItem from="1622880112894" duration="200000" />
+      <workItem from="1622898013837" duration="4148000" />
+      <workItem from="1622910921537" duration="2117000" />
+      <workItem from="1623076333496" duration="1577000" />
+      <workItem from="1623079065449" duration="1132000" />
+      <workItem from="1623081436068" duration="537000" />
+      <workItem from="1623081995787" duration="2487000" />
+      <workItem from="1623142810215" duration="9369000" />
+      <workItem from="1623166470770" duration="3094000" />
+      <workItem from="1623170195379" duration="3615000" />
+      <workItem from="1623200520324" duration="1297000" />
+      <workItem from="1623229983324" duration="624000" />
+      <workItem from="1623248365747" duration="997000" />
+      <workItem from="1623318786981" duration="2253000" />
+      <workItem from="1623333005060" duration="3224000" />
+      <workItem from="1623412704393" duration="4060000" />
+      <workItem from="1623418655999" duration="8369000" />
+      <workItem from="1623577364745" duration="3181000" />
+      <workItem from="1623840622725" duration="1087000" />
+      <workItem from="1623858866837" duration="13000" />
+      <workItem from="1623896586250" duration="29012000" />
+      <workItem from="1623945992012" duration="12000" />
+      <workItem from="1624015251103" duration="1221000" />
+      <workItem from="1624032583594" duration="650000" />
+      <workItem from="1624034111251" duration="4021000" />
+      <workItem from="1624249759187" duration="2395000" />
+      <workItem from="1624286880768" duration="396000" />
+      <workItem from="1624288676574" duration="8244000" />
+      <workItem from="1624297195281" duration="1044000" />
+      <workItem from="1624346521872" duration="14373000" />
+      <workItem from="1624377845964" duration="815000" />
+      <workItem from="1624421487458" duration="10626000" />
+      <workItem from="1624438116809" duration="1156000" />
+      <workItem from="1624448012799" duration="11755000" />
+      <workItem from="1624462404477" duration="2453000" />
+      <workItem from="1624466579275" duration="2837000" />
+      <workItem from="1624531314452" duration="7996000" />
+      <workItem from="1624544137597" duration="15450000" />
+      <workItem from="1624609365464" duration="13772000" />
+      <workItem from="1624626485718" duration="4436000" />
+      <workItem from="1624634589602" duration="5807000" />
+      <workItem from="1624679595616" duration="19607000" />
+      <workItem from="1624708911424" duration="116000" />
+      <workItem from="1624709041364" duration="97000" />
+      <workItem from="1624709173952" duration="6969000" />
+      <workItem from="1624732064910" duration="6745000" />
+      <workItem from="1624801396104" duration="49000" />
+      <workItem from="1624891905637" duration="7363000" />
+      <workItem from="1624959060069" duration="4815000" />
+      <workItem from="1625153714834" duration="3053000" />
+      <workItem from="1625221966992" duration="6943000" />
+      <workItem from="1625388276601" duration="22000" />
+      <workItem from="1626333342487" duration="742000" />
+      <workItem from="1626339945090" duration="3007000" />
+      <workItem from="1626401399649" duration="2270000" />
+      <workItem from="1626425049515" duration="640000" />
+      <workItem from="1626429135778" duration="631000" />
+      <workItem from="1626453036199" duration="206000" />
+      <workItem from="1626453291542" duration="1415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/pytorch/pytorch-engine/0.11.0/pytorch-engine-0.11.0.jar!/ai/djl/pytorch/jni/LibUtils.class</url>
+          <line>438</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/pytorch/pytorch-engine/0.11.0/pytorch-engine-0.11.0-sources.jar!/ai/djl/pytorch/jni/IValueUtils.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/api/0.12.0-SNAPSHOT/api-0.12.0-20210624.102954-43-sources.jar!/ai/djl/inference/Predictor.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8/src.zip!/java/lang/ClassLoader.java</url>
+          <line>1930</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.opencv.core.MatOfPoint2f" memberName="nativeObj" />
+        <PinnedItemInfo parentTag="ai.djl.pytorch.engine.PtNDManager" memberName="resources" />
+        <PinnedItemInfo parentTag="ai.djl.inference.Predictor" memberName="manager" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

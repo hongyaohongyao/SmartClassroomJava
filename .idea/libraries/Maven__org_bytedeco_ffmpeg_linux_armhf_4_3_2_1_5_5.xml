@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.bytedeco:ffmpeg:linux-armhf:4.3.2-1.5.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../cache/maven/repository/org/bytedeco/ffmpeg/4.3.2-1.5.5/ffmpeg-4.3.2-1.5.5-linux-armhf.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../cache/maven/repository/org/bytedeco/ffmpeg/4.3.2-1.5.5/ffmpeg-4.3.2-1.5.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../cache/maven/repository/org/bytedeco/ffmpeg/4.3.2-1.5.5/ffmpeg-4.3.2-1.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
