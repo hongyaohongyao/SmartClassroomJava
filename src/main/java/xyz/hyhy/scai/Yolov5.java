@@ -10,6 +10,7 @@ import ai.djl.modality.cv.output.DetectedObjects;
 import ai.djl.modality.cv.output.DetectedObjects.DetectedObject;
 import ai.djl.modality.cv.output.Rectangle;
 import ai.djl.modality.cv.translator.YoloV5Translator;
+import ai.djl.pytorch.jni.JniUtils;
 import ai.djl.repository.zoo.Criteria;
 import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.repository.zoo.ModelZoo;
@@ -49,11 +50,11 @@ public class Yolov5 extends MainClass {
         Criteria<Image, DetectedObjects> criteria =
                 Criteria.builder()
                         .setTypes(Image.class, DetectedObjects.class)
-                        .optDevice(Device.cpu())
+                        .optDevice(Device.gpu())
                         .optModelUrls(Yolov5.class.getResource("/yolov5").getPath())
-                        .optModelName("yolov5s.onnx")
+                        .optModelName("yolov5s.torchscript.pt")
                         .optTranslator(translator)
-                        .optEngine("OnnxRuntime")
+                        .optEngine("PyTorch")
                         .build();
         try (ZooModel<Image, DetectedObjects> model = ModelZoo.loadModel(criteria)) {
             VideoCapture cap = new VideoCapture(CAP_ANY);

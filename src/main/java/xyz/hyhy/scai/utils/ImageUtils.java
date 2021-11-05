@@ -3,20 +3,23 @@ package xyz.hyhy.scai.utils;
 import ai.djl.modality.cv.Image;
 import ai.djl.modality.cv.ImageFactory;
 import ai.djl.modality.cv.output.Rectangle;
-import ai.djl.ndarray.NDArray;
 import ai.djl.ndarray.NDManager;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
-import org.opencv.highgui.HighGui;
 
 
 public class ImageUtils {
+
+    static {
+        ImageFactory.setImageFactory(new CVImageFactory());
+    }
+
     private ImageUtils() {
 
     }
 
     public static Image mat2Image(Mat mat) {
-        return ImageFactory.getInstance().fromImage(HighGui.toBufferedImage(mat));
+        return ImageFactory.getInstance().fromImage(mat);
     }
 
 

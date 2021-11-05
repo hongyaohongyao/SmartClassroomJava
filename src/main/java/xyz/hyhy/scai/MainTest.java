@@ -19,8 +19,8 @@ public class MainTest extends MainClass {
 
 
     public static void main(String[] args) {
-//        String source = AlphaPose.class.getResource("/front_cheat.mp4").getPath();
-        int source = 0;
+        String source = AlphaPose.class.getResource("/front_cheat.mp4").getPath();
+//        int source = 0;
         try {
             //注册执行模块
             ModulesCenter modulesCenter = ModulesCenter.getInstance();

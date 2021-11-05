@@ -1,6 +1,7 @@
 package xyz.hyhy.scai;
 
-
+import ai.djl.pytorch.jni.JniUtils;
+import ai.djl.engine.Engine;
 import org.bytedeco.javacpp.Loader;
 import org.bytedeco.opencv.opencv_java;
 import org.opencv.core.Core;
@@ -8,12 +9,14 @@ import org.opencv.core.Core;
 public class MainClass {
     static {
 //        System.loadLibrary("D:\\cache\\djl\\pytorch\\1.8.1-cu111-win-x86_64\\cudnn_cnn_infer64_8.dll");
-//        Loader.load(opencv_java.class);
+        Loader.load(opencv_java.class);
         String cacheDir = System.getenv("DEFAULT_CACHE_DIR");
         System.setProperty("DJL_CACHE_DIR", cacheDir + "/djl");
         System.setProperty("ENGINE_CACHE_DIR", cacheDir + "/djl");
         initOrtLibraryProperties(cacheDir);
-        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
+        Engine engine = Engine.getEngine("PyTorch");
+        JniUtils.setGraphExecutorOptimize(false);
+//        System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
     }
 
     public static void initOrtLibraryProperties(String cacheDir) {

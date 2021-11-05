@@ -10,8 +10,5 @@
         <module name="SmartClassroomJava" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="SmartClassroomJava" target="8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

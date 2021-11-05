@@ -22,7 +22,6 @@ import ai.djl.modality.cv.translator.BaseImageTranslator;
 import ai.djl.ndarray.NDArray;
 import ai.djl.ndarray.NDList;
 import ai.djl.ndarray.NDManager;
-import ai.djl.ndarray.index.NDIndex;
 import ai.djl.ndarray.types.DataType;
 import ai.djl.ndarray.types.Shape;
 import ai.djl.nn.Activation;
@@ -56,7 +55,7 @@ public class SPPETranslator extends BasePairTranslator<Mat, Rectangle, Joints> {
     private static int[] axis2n3 = new int[]{2, 3};
     private static int[] axis2n4 = new int[]{2, 4};
     private static int[] axis3n4 = new int[]{3, 4};
-
+    private static NDArray ONES_NDARRAY = NumpyUtils.ndManager.ones(new Shape(1, 136, 1));
 
     private static NDArray integralOp(NDArray hm, NDManager ndManager) {
         Shape hmShape = hm.getShape();
@@ -110,24 +109,24 @@ public class SPPETranslator extends BasePairTranslator<Mat, Rectangle, Joints> {
         double centerX = x + 0.5 * w, centerY = y + 0.5 * h;
         double scaleX = w;
 
-        float[] flattened = predJoints.toFloatArray();
-        float[] flattenedConfidence = maxValues.toFloatArray();
         Mat trans = CVUtils.getAffineTransform(centerX, centerY, width, height, scaleX, true);
-        NDArray ndTrans = CVUtils.transMat2NDArray(trans, ndManager);
+        NDArray ndTrans = CVUtils.transMat2NDArray(trans, ndManager).transpose(1, 0);
+
+        predJoints = predJoints
+                .concat(ONES_NDARRAY, 2);
+
+        NDArray xys = predJoints.matMul(ndTrans);
+
+
+        float[] flattened = xys.toFloatArray();
+        float[] flattenedConfidence = maxValues.toFloatArray();
 
         List<Joint> joints = new ArrayList<>(numJoints);
         for (int i = 0; i < numJoints; ++i) {
-            NDArray xy = ndManager
-                    .create(new float[]{flattened[i * 2], flattened[i * 2 + 1], 1})
-                    .transpose();
-            xy = ndTrans.matMul(xy)
-                    .get(new NDIndex(":2"));
-
-            joints.add(
-                    new Joint(
-                            xy.getFloat(0),
-                            xy.getFloat(1),
-                            flattenedConfidence[i]));
+            joints.add(new Joint(
+                    flattened[2 * i],
+                    flattened[2 * i + 1],
+                    flattenedConfidence[i]));
         }
 //        System.out.println(joints);
         return new Joints(joints);
@@ -175,6 +174,7 @@ public class SPPETranslator extends BasePairTranslator<Mat, Rectangle, Joints> {
         cropped_bboxes.add(croppedBBox);
 
         NDArray array = ImageUtils.mat2Image(frame).toNDArray(ctx.getNDManager(), Image.Flag.COLOR);
+
         return pipeline.transform(new NDList(array));
     }
 

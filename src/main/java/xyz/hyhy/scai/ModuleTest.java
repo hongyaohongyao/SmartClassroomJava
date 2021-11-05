@@ -1,6 +1,7 @@
 package xyz.hyhy.scai;
 
 import ai.djl.Device;
+import ai.djl.MalformedModelException;
 import ai.djl.ModelException;
 import ai.djl.inference.Predictor;
 import ai.djl.modality.cv.Image;
@@ -9,6 +10,7 @@ import ai.djl.modality.cv.output.Joints;
 import ai.djl.modality.cv.output.Rectangle;
 import ai.djl.modality.cv.translator.YoloV5Translator;
 import ai.djl.repository.zoo.Criteria;
+import ai.djl.repository.zoo.ModelNotFoundException;
 import ai.djl.repository.zoo.ModelZoo;
 import ai.djl.repository.zoo.ZooModel;
 import ai.djl.translate.TranslateException;
@@ -17,11 +19,7 @@ import ai.djl.util.Pair;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Scalar;
-import xyz.hyhy.scai.ml.AlphaPoseEstimator;
-import xyz.hyhy.scai.ml.HolisticEstimator;
-import xyz.hyhy.scai.ml.LPNPoseEstimator;
-import xyz.hyhy.scai.ml.ParallelPoseEstimator;
-import xyz.hyhy.scai.translator.SPPETranslator;
+import xyz.hyhy.scai.ml.*;
 import xyz.hyhy.scai.translator.SPPETranslator2;
 import xyz.hyhy.scai.utils.ImageUtils;
 
@@ -32,8 +30,28 @@ import java.util.List;
 public class ModuleTest extends MainClass {
 
 
-    public static void main(String[] args) {
-        testFastPose();
+    public static void main(String[] args) throws Exception {
+        test0();
+    }
+
+    public static void test0() throws Exception {
+        int imgsNum = 1000;
+        Scalar white = new Scalar(255, 255, 255);
+        //
+        YoloV5Detector detector = new YoloV5Detector();
+        //
+        int height = 640, width = 640;
+        List<Image> imgs = new ArrayList<>();
+        for (int i = 0; i < imgsNum; i++) {
+            imgs.add(ImageUtils.mat2Image(new Mat(height, width, CvType.CV_8UC3, white)));
+        }
+        System.out.println("预热中");
+        detector.detect(imgs);
+        System.out.println("开始测试");
+        long startTime = System.currentTimeMillis();
+        detector.detect(imgs);
+        long endTime = System.currentTimeMillis();
+        System.out.println(String.format("处理速度: %f s/img", (endTime - startTime) / 1000.0 / imgsNum));
     }
 
     public static void testYolov5() {

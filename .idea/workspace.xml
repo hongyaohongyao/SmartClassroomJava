@@ -4,52 +4,187 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7f632c2-3850-4577-8a51-b61cb769d645" name="Default Changelist" comment="" />
+    <list default="true" id="c1e98735-b175-43a0-a5da-c1f740f5f63b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/PureImageTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/PureTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/CVImageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SmartClassroomJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_api_0_12_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_basicdataset_0_12_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_model_zoo_0_12_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_onnxruntime_onnxruntime_engine_0_12_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_pytorch_pytorch_engine_0_12_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ai_djl_pytorch_pytorch_native_auto_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_75.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_microsoft_onnxruntime_onnxruntime_gpu_1_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_5_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_20.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_artoolkitplus_2_3_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_arm_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_android_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_arm64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_armhf_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_ppc64le_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_linux_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_macosx_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_platform_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_ffmpeg_windows_x86_64_4_3_2_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flandmark_1_07_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_flycapture_2_13_3_31_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_arm_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_android_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_ios_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_armhf_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_ppc64le_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_linux_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_arm64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_macosx_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_platform_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_windows_x86_64_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacv_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_leptonica_1_80_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libdc1394_2_2_6_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect2_0_2_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_libfreenect_0_5_7_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense2_2_40_0_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_librealsense_1_12_4_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_arm_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_android_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_ios_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_arm64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_armhf_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_ppc64le_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_linux_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_macosx_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_platform_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_openblas_windows_x86_64_0_3_13_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_arm_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_android_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_ios_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_arm64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_armhf_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_ppc64le_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_linux_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_macosx_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_platform_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_opencv_windows_x86_64_4_5_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_tesseract_4_1_1_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_videoinput_0_200_1_5_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_18.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_31.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestAI.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/AlphaPose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/AlphaPose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ClassAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ClassAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Holistic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Holistic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/LPNPose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/LPNPose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MediapipePose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/MediapipePose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ModuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ModuleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Yolov5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Yolov5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Yolov5WithMask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/Yolov5WithMask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/constant/ColorConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/constant/ColorConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/constant/CoreConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/constant/CoreConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/DataDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/DataDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/ModulesCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/ModulesCenter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/TaskSolutionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/commons/TaskSolutionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/BaseModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/BaseModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/ExeModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/ExeModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/SCModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/SCModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/SourceModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/modules/SourceModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/core/tasks/TaskStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/AlphaPoseModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/AlphaPoseModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/ClassActionModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/ClassActionModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/DrawModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/DrawModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/YoloModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/exemodules/YoloModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/ClassroomConcentration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/ClassroomConcentration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/ClassroomConcentrationFce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/ClassroomConcentrationFce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/SecFce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/fce/SecFce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/AlphaPoseEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/AlphaPoseEstimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/ClassroomActionClassifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/ClassroomActionClassifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/HolisticEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/HolisticEstimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/LPNPoseEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/LPNPoseEstimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/ParallelPoseEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/ParallelPoseEstimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/YoloV5Detector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/ml/YoloV5Detector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/pojo/ClassActionPOJO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/pojo/ClassActionPOJO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/startmodules/VideoModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/startmodules/VideoModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/BasePairTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/BasePairTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/ClassroomActionTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/ClassroomActionTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/FaceDetectionTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/FaceDetectionTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/JointsClassificationTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/JointsClassificationTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/LPNTranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/LPNTranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/SPPETranslator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/SPPETranslator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/SPPETranslator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/translator/SPPETranslator2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/CVUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/CVUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/FFmpegUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/FFmpegUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/ImageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/ImageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/NumpyUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/NumpyUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/PoseEstimator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/PoseEstimator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/SceneMasker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/SceneMasker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/yolov5/coco.names" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/yolov5/coco.names" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExternalProjectsData">
-    <projectState path="$PROJECT_DIR$/../pytorch">
-      <ProjectState />
-    </projectState>
-  </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/xyz/hyhy/scai/utils/PoseEstimator.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\cache\maven\repository" />
-        <option name="userSettingsFile" value="D:\cache\maven\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1tAySBb2Z6voq6yzHWE5RE3xXLi" />
+  <component name="ProjectId" id="20VWFyosR8iMN21JXUy9hObdfVv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -59,37 +194,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.41247" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\action" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\sppe" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\target\classes\sppe" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\yolov5" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\IdeaProjects\" />
-      <recent name="D:\Projects\IdeaProjects\SmartClassroomJava" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources" />
-      <recent name="D:\Projects\IdeaProjects\TestAI\src\main\resources\yolov5s" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="xyz.hyhy.scai.translator" />
-      <recent name="xyz.hyhy.scai.ml" />
-      <recent name="xyz.hyhy.scai" />
-      <recent name="xyz.hyhy.scai.exemodules" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.ClassAction">
+  <component name="RunManager" selected="Application.AlphaPose">
     <configuration name="AlphaPose" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.AlphaPose" />
       <module name="SmartClassroomJava" />
@@ -103,213 +211,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassAction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.ClassAction" />
+    <configuration name="TestClass.SPPETranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartClassroomJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.hyhy.scai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="SPPETranslatorTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.Main" />
+    <configuration name="TestClass.yolov5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SmartClassroomJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.hyhy.scai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.MainTest" />
-      <module name="SmartClassroomJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="xyz.hyhy.scai.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Yolov5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="xyz.hyhy.scai.Yolov5" />
-      <module name="SmartClassroomJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="METHOD_NAME" value="yolov5Test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClassAction" />
         <item itemvalue="Application.AlphaPose" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainTest" />
-        <item itemvalue="Application.Yolov5" />
+        <item itemvalue="JUnit.TestClass.SPPETranslatorTest" />
+        <item itemvalue="JUnit.TestClass.yolov5Test" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a7f632c2-3850-4577-8a51-b61cb769d645" name="Default Changelist" comment="" />
-      <created>1622226187514</created>
+      <changelist id="c1e98735-b175-43a0-a5da-c1f740f5f63b" name="Changes" comment="" />
+      <created>1636130138563</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1622226187514</updated>
-      <workItem from="1622226189221" duration="920000" />
-      <workItem from="1622227167098" duration="1090000" />
-      <workItem from="1622283397909" duration="1090000" />
-      <workItem from="1622284641141" duration="254000" />
-      <workItem from="1622289080906" duration="438000" />
-      <workItem from="1622289533623" duration="6903000" />
-      <workItem from="1622301024022" duration="606000" />
-      <workItem from="1622303587201" duration="9185000" />
-      <workItem from="1622313306958" duration="378000" />
-      <workItem from="1622314085269" duration="185000" />
-      <workItem from="1622365807552" duration="2965000" />
-      <workItem from="1622393582466" duration="2217000" />
-      <workItem from="1622396261580" duration="468000" />
-      <workItem from="1622397066842" duration="5268000" />
-      <workItem from="1622438424706" duration="2431000" />
-      <workItem from="1622465134931" duration="1639000" />
-      <workItem from="1622474615711" duration="871000" />
-      <workItem from="1622478924422" duration="6150000" />
-      <workItem from="1622485164610" duration="1528000" />
-      <workItem from="1622527181053" duration="21192000" />
-      <workItem from="1622551274385" duration="311000" />
-      <workItem from="1622552010381" duration="6898000" />
-      <workItem from="1622607689334" duration="2767000" />
-      <workItem from="1622624418724" duration="13781000" />
-      <workItem from="1622647477476" duration="9625000" />
-      <workItem from="1622657330590" duration="132000" />
-      <workItem from="1622691633565" duration="28545000" />
-      <workItem from="1622724679165" duration="274000" />
-      <workItem from="1622724977885" duration="45000" />
-      <workItem from="1622728717996" duration="713000" />
-      <workItem from="1622810823539" duration="9002000" />
-      <workItem from="1622879420279" duration="548000" />
-      <workItem from="1622880112894" duration="200000" />
-      <workItem from="1622898013837" duration="4148000" />
-      <workItem from="1622910921537" duration="2117000" />
-      <workItem from="1623076333496" duration="1577000" />
-      <workItem from="1623079065449" duration="1132000" />
-      <workItem from="1623081436068" duration="537000" />
-      <workItem from="1623081995787" duration="2487000" />
-      <workItem from="1623142810215" duration="9369000" />
-      <workItem from="1623166470770" duration="3094000" />
-      <workItem from="1623170195379" duration="3615000" />
-      <workItem from="1623200520324" duration="1297000" />
-      <workItem from="1623229983324" duration="624000" />
-      <workItem from="1623248365747" duration="997000" />
-      <workItem from="1623318786981" duration="2253000" />
-      <workItem from="1623333005060" duration="3224000" />
-      <workItem from="1623412704393" duration="4060000" />
-      <workItem from="1623418655999" duration="8369000" />
-      <workItem from="1623577364745" duration="3181000" />
-      <workItem from="1623840622725" duration="1087000" />
-      <workItem from="1623858866837" duration="13000" />
-      <workItem from="1623896586250" duration="29012000" />
-      <workItem from="1623945992012" duration="12000" />
-      <workItem from="1624015251103" duration="1221000" />
-      <workItem from="1624032583594" duration="650000" />
-      <workItem from="1624034111251" duration="4021000" />
-      <workItem from="1624249759187" duration="2395000" />
-      <workItem from="1624286880768" duration="396000" />
-      <workItem from="1624288676574" duration="8244000" />
-      <workItem from="1624297195281" duration="1044000" />
-      <workItem from="1624346521872" duration="14373000" />
-      <workItem from="1624377845964" duration="815000" />
-      <workItem from="1624421487458" duration="10626000" />
-      <workItem from="1624438116809" duration="1156000" />
-      <workItem from="1624448012799" duration="11755000" />
-      <workItem from="1624462404477" duration="2453000" />
-      <workItem from="1624466579275" duration="2837000" />
-      <workItem from="1624531314452" duration="7996000" />
-      <workItem from="1624544137597" duration="15450000" />
-      <workItem from="1624609365464" duration="13772000" />
-      <workItem from="1624626485718" duration="4436000" />
-      <workItem from="1624634589602" duration="5807000" />
-      <workItem from="1624679595616" duration="19607000" />
-      <workItem from="1624708911424" duration="116000" />
-      <workItem from="1624709041364" duration="97000" />
-      <workItem from="1624709173952" duration="6969000" />
-      <workItem from="1624732064910" duration="6745000" />
-      <workItem from="1624801396104" duration="49000" />
-      <workItem from="1624891905637" duration="7363000" />
-      <workItem from="1624959060069" duration="4815000" />
-      <workItem from="1625153714834" duration="3053000" />
-      <workItem from="1625221966992" duration="6943000" />
-      <workItem from="1625388276601" duration="22000" />
-      <workItem from="1626333342487" duration="742000" />
-      <workItem from="1626339945090" duration="3007000" />
-      <workItem from="1626401399649" duration="2270000" />
-      <workItem from="1626425049515" duration="640000" />
-      <workItem from="1626429135778" duration="631000" />
-      <workItem from="1626453036199" duration="206000" />
-      <workItem from="1626453291542" duration="1415000" />
+      <updated>1636130138563</updated>
+      <workItem from="1636130141622" duration="2585000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/pytorch/pytorch-engine/0.11.0/pytorch-engine-0.11.0.jar!/ai/djl/pytorch/jni/LibUtils.class</url>
-          <line>438</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/pytorch/pytorch-engine/0.11.0/pytorch-engine-0.11.0-sources.jar!/ai/djl/pytorch/jni/IValueUtils.java</url>
-          <line>238</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../cache/maven/repository/ai/djl/api/0.12.0-SNAPSHOT/api-0.12.0-20210624.102954-43-sources.jar!/ai/djl/inference/Predictor.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$PROJECT_DIR$/../../../Program Files/Java/jdk1.8/src.zip!/java/lang/ClassLoader.java</url>
-          <line>1930</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="org.opencv.core.MatOfPoint2f" memberName="nativeObj" />
-        <PinnedItemInfo parentTag="ai.djl.pytorch.engine.PtNDManager" memberName="resources" />
-        <PinnedItemInfo parentTag="ai.djl.inference.Predictor" memberName="manager" />
-      </pinned-members>
-    </pin-to-top-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
