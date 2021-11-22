@@ -28,6 +28,7 @@ import xyz.hyhy.scai.MainClass;
 import xyz.hyhy.scai.translator.PureImageTranslator;
 import xyz.hyhy.scai.translator.PureTranslator;
 import xyz.hyhy.scai.translator.SPPETranslator;
+import xyz.hyhy.scai.translator.SimpSPPETranslator;
 import xyz.hyhy.scai.utils.CVUtils;
 import xyz.hyhy.scai.utils.ImageUtils;
 
@@ -506,6 +507,31 @@ public class TestClass extends MainClass {
                 .optEngine("PyTorch")
                 .build();
         testBatch(ModelZoo.loadModel(criteria), new Pair<>(img, rect), imgsNum, warmupNum, 30);
+    }
+
+    @Test
+    public void SPPETranslatorSimpBatchTest() throws Exception {
+        int imgsNum = 100;
+        int warmupNum = 10;
+        Scalar white = new Scalar(0, 0, 0);
+        int height = 640, width = 640, h = 256, w = 192;
+        Mat img = new Mat(height, width, CvType.CV_8UC3, white);
+        Rectangle rect = new Rectangle(
+                (width - w) / 2.0,
+                (height - h) / 2.0,
+                w,
+                h
+        );
+        SimpSPPETranslator translator = SimpSPPETranslator.builder().build();
+        Criteria<Pair<Mat, Rectangle>, Joints> criteria = Criteria.builder()
+                .setTypes(translator.getPairClass(), Joints.class)
+                .optDevice(Device.gpu())
+                .optModelUrls(AlphaPose.class.getResource("/sppe").getPath())
+                .optModelName("halpe136_mobile_simp.torchscript.pth")
+                .optTranslator(translator)
+                .optEngine("PyTorch")
+                .build();
+        testBatch(ModelZoo.loadModel(criteria), new Pair<>(img, rect), imgsNum, warmupNum, 50);
     }
 
     @Test

@@ -37,7 +37,6 @@ public abstract class BasePairTranslator<I, P, O> implements Translator<Pair<I, 
     /**
      * {@inheritDoc}
      */
-    @Override
     public Pipeline getPipeline() {
         return pipeline;
     }

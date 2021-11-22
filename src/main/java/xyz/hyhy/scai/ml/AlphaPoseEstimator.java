@@ -9,6 +9,7 @@ import ai.djl.util.Pair;
 import org.opencv.core.Mat;
 import xyz.hyhy.scai.translator.BasePairTranslator;
 import xyz.hyhy.scai.translator.SPPETranslator;
+import xyz.hyhy.scai.translator.SimpSPPETranslator;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class AlphaPoseEstimator extends ParallelPoseEstimator {
 
     @Override
     public BasePairTranslator<Mat, Rectangle, Joints> getPoseTranslator() {
-        return SPPETranslator.builder().build();
+        return SimpSPPETranslator.builder().build();
     }
 
     //    @Override
@@ -35,7 +36,7 @@ public class AlphaPoseEstimator extends ParallelPoseEstimator {
 //    }
     @Override
     public String getPoseModelName() {
-        return "halpe136_mobile.torchscript.pth";
+        return "halpe136_mobile_simp.torchscript.pth";
     }
 
     @Override
